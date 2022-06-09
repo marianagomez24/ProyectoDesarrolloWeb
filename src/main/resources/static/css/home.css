@@ -1,0 +1,242 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-may-2022, 18:16:39
+    Author     : Daniel Felipe
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Monda&family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'Bebas Neue', cursive;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    background-color: white;
+    background-position:center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 35%;
+    box-sizing: border-box;
+    position:relative;
+    
+}
+/*Lo que hace el display el comportamiento de nuestros elementos en la cajita el flex hace que se acomoden en un nivel de bloque , align es que los queremos centrados
+*/
+
+
+.navbar1{
+    position:static;
+    padding-left: 82.6%;
+    padding-right: -40%;
+    background-color: #0F1A59;
+    position: relative;
+    top:-5%;
+    height:10vh;
+    width:100%;
+    left: -200px;
+    display:flex;
+    margin:auto;
+    align-items: center; 
+}
+
+.nav{
+    /*El flex que tanto va crecer como de uno a uno*/
+  flex:1;
+  padding-left: 70px;
+
+}
+
+.nav ul li{
+    position:relative;
+    display:inline-block;
+    list-style: none;
+    margin:0px 11px;
+    top:20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Monda', sans-serif;
+}
+
+
+.nav ul li img{
+   position:relative;
+   display:inline-block;
+   top:5px;
+}
+
+.navbar2{
+    position: relative;
+    height:15vh;
+    width:150%;
+    left: 70px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    top:-55px;
+}
+
+.logo{
+    width: 100px;
+    /*lo que hace esque el cursor pointer es que cambie el cursor para que aparezca como que hay un botón*/
+    cursor:pointer;
+    
+}
+
+/*Es que se aplica ese como tal*/
+nav{
+    /*El flex que tanto va crecer como de uno a uno*/
+  flex:1;
+  padding-left: 60px;  
+}
+
+/*Lo que hace esque siempre esta sucesión que le aplique los datos que están adentro
+
+/* el inline block que se desplque en una sola linea horizontal*/
+
+/*none es no ponerle ningun estilo y el margin*/
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0px 20px;
+}
+
+nav ul li a{
+    /*Quitar la linea que está debajo*/
+    text-decoration: none;
+    /*Ponerle color*/
+    color: black;
+    font-size: 20px;
+    font-family: 'Monda', sans-serif;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li img{
+   
+    cursor:pointer;
+   
+}
+
+.content{
+    position:static;
+    padding-left: 82.6%;
+    padding-right: -40%;
+    background-color:#18298C;
+    position: relative;
+    top:-5%;
+    height:50vh;
+    width:100%;
+    left: -200px;
+    display:flex;
+    margin:auto;
+    align-items: center;
+    border-bottom-left-radius: 500px 100px;
+    border-bottom-right-radius: 500px 100px;
+}
+
+.content h1{
+    position: absolute;
+    font-size: 40px;
+    margin: -50px;
+    color:black;
+    top:130px;
+   
+}
+
+.navbar3{
+    position: relative;
+    background-color:white;
+    top:-14%;
+    height:5vh;
+    width:600px;
+    left: -400px;
+    display:flex;
+    margin:auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navbar3 input{
+    position: absolute;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    left: 0px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    border-radius: 10px;
+}
+.navbar3 input:hover{
+    
+}
+
+
+.navbar3 p{
+    position:relative;
+    right: -50px;
+}
+
+.navbar3 img{
+    position:absolute;
+    left: 20px;
+}
+.miImagen{
+    border:5px solid;
+    height: 40%;
+    position: absolute;
+    bottom: 40px;
+    left: 720px;
+    
+}
+.miImagen2{
+    border:5px solid;
+    height: 40%;
+    position: absolute;
+    bottom: 40px;
+    left: 1000px;
+}
+
+.barra h1{
+    position: relative;
+    font-size: 35px;
+    color:#B81801;
+    left:600px;
+    top:-35px;
+}
+
+.nav2{
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 730px;
+  bottom: 0;
+  left: 100px;
+  right: 0px;
+  margin: auto;
+  border-radius: 5px;
+}
+.nav2 ul li{
+    position:relative;
+    display:inline-block;
+    margin:0px 40px;
+    top:15px;
+    left:-30px;
+    cursor:pointer;
+}
